@@ -1,0 +1,24 @@
+<% @rooms.each do |room| %> 
+
+<ul>
+	<li>
+		<%= room.name %> 
+	</li>
+</ul>
+
+<% end %> 
+
+<hr> 
+
+<% @playlists.each do |playlist| %> 
+
+<ul>
+	<li>
+		<%= playlist.title %> 
+	</li>
+	<li>
+		<%= playlist.link %> 
+	</li>
+</ul>
+
+<% end %> 
